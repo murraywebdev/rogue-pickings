@@ -1,0 +1,148 @@
+/***** GRID STYLES *****/
+
+body {
+  font-family: 'montserrat', sans-serif;
+}
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 50%;
+  float:left
+}
+
+.third-width {
+  width: 33%;
+  float: left;
+}
+
+/***** HEADER SECTION *****/
+
+header .full-width {
+  height: 110px;
+  border-bottom: 3px solid #77a466;
+  margin: 0 auto;
+}
+
+header h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  padding-top: 30px;
+
+}
+
+nav ul li{
+  display: inline-block;
+}
+nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #77a466;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+/***** TOP SECTION *****/
+
+#top-section img {
+  border-bottom: 3px solid #77a466;
+}
+
+#top-section h2 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+#top-section p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/***** MAIN SECTION *****/
+
+#section-one, #section-two, #section-three {
+  border-top: 1px solid #eeeeee;
+  height: 210px;
+}
+
+#section-one, #section-two, #section-three h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+#section-one {
+  border-right: 1px solid #eeeeee;
+}
+
+#section-one ul {
+  color: #77a466;
+  line-height: 25px;
+  font-size: 16px;
+  list-style: none;
+  text-transform: capitalize;
+  text-align: left;
+  padding: 0px;
+}
+
+#section-one li {
+  padding-bottom: 10px;
+}
+
+#section-two {
+  border-right: 1px solid #eeeeee;
+}
+
+#section-two h3 {
+  padding: 0 25px;
+}
+
+#section-two p{
+  font-size: 14px;
+  text-transform: none;
+  padding: 0 20px;
+  line-height: 21px;
+}
+
+#section-three h3, p{
+  padding-left: 25px;
+}
+
+#section-three p {
+  line-height: 25px;
+}
+/***** FOOTER SECTION *****/
+
+footer {
+  border-top: 1px solid #eeeeee;
+  clear: both;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer h2 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+footer span {
+  color: #77a466;
+  font-family: 'lobster', cursive;
+  text-transform: lowercase;
+}
